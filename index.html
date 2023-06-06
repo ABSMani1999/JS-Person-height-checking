@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Person height checking</title>
+        <meta charset ="utf-8">
+		<meta name="description" content=""/>
+		<meta name="keywords" content="HTML,CSS,Java script"/>
+		<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+    </head>
+    <body>
+        <script>
+            var x = prompt("Enter you are height");
+
+            if(parseInt(x)<50){
+                document.write("Dwarf");
+            }
+            else if(parseInt(x)>=150 && parseInt(x)<165){
+                document.write("Average height");
+            }
+            else if(parseInt(x)>=165 && parseInt(x)<195){
+                document.write("Tallest")
+            }
+            else{
+                document.write("abnormal");
+            }
+        </script>
+    </body>
+</html>
